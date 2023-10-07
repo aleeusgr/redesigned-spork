@@ -22,7 +22,7 @@ name:               redesigned-spork
 --                  | | | +--- code changes with no API change
 version:            0.1.0.0
 
-tested-with:   GHC==9.6.2
+tested-with:   GHC==9.4.5
 
 -- A short (one-line) description of the package.
 synopsis:           testing Haskell package vulnerabilities.
