@@ -98,7 +98,9 @@ test-suite redesigned-spork-test
     hs-source-dirs:   test
 
     -- The entrypoint to the test suite.
-    main-is:          Main.hs
+    main-is:          Spec.hs
 
     -- Test dependencies.
-    build-depends:    base ^>=4.17.1.0
+    build-depends:    base ^>=4.17.1.0,
+    			hspec, 
+			QuickCheck
